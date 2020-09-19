@@ -1,0 +1,159 @@
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: #efefef;
+    border-radius: 10px;
+    color: #696969;
+}
+
+#tableTitle {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+/* メニューエリア */
+
+#menuArea {
+    margin: 0px;
+    width: 100%;
+    text-align: right;
+    background-color: #000080;
+}
+#menuConfig {
+    padding-right: 20px;
+    color: #fff;
+    font-size: smaller;
+}
+#menuDisplayChange {
+    padding-right: 20px;
+    color: #fff;
+    font-size: smaller;
+}
+
+
+/* 設定エリア */
+
+#configArea {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #eeffff;
+}
+
+#configArea td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.chckboxBlock {
+    text-align: right;
+}
+
+
+/* 表示変更エリア */
+
+#displayChangeArea {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #eeffff;
+}
+
+#displayChangeArea td:nth-child(2) {
+    padding-left: 20px;
+}
+
+.chckboxBlock {
+    text-align: right;
+}
+
+
+/* 表エリア */
+
+#generalTable {
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+}
+#generalTable table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 96%;
+    border: 1px solid;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#generalTable table thead tr {
+    background-color: #eeffff;
+}
+#generalTable table thead th,
+#generalTable table tbody td {
+    border-bottom: 1px solid;
+}
+#generalTable table thead th + th,
+#generalTable table tbody td + td {
+    border-left: 1px solid;
+}
+#generalTable table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tableColumn {
+    display: inline-block;
+}
+.tableColumnSortMarker {
+    margin-right: 10px;
+}
+.tableBody tr td:first-child {
+    text-align: center;
+    background-color: #eeffff;
+}
+.tableValue {
+    background-color: #ffffff;
+}
+
+
+/* ページングエリア */
+
+#pagingArea {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+#pageLabel {
+    margin-right: 15px;
+    font-weight: bold;
+}
+#pagePrev {
+    margin-left: 8px;
+    font-weight: bold;
+}
+#page {
+    margin-left: 8px;
+    font-weight: bold;
+}
+#pageNext {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
