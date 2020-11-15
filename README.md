@@ -341,3 +341,7 @@ const tableColumnOption = {
     - columnIndexDisplaySet カラムの表示/非表示選択を保持するセット
     - recordDisplaySet      レコードの表示/非表示選択を保持するセット
 
+
+# Lisence
+
+This project is licensed under the MIT License, see the LICENSE.txt file for details
